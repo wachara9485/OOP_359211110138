@@ -5,14 +5,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class TestInput {
-    public static void main(String[] args) throws IOException {
+    import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+    public class TestInput {
+        public static void main(String[] args) throws IOException {
 
 //        BufferedReader
-        BufferedReader reader = new BufferedReader(
-                new InputStreamReader(System.in));
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(System.in));
 
-        System.out.println("What is your name? :");
-        String name = reader.readLine();
-        System.out.println("Your name is"+name);
-    }
-}
+            System.out.println("What is your name? :");
+            String name = reader.readLine();
+            System.out.println("Your name is"+name);
+
+        }
