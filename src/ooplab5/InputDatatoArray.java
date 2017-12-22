@@ -21,7 +21,7 @@ public class InputDatatoArray {
     private static void showData(int[]number){
         System.out.println("Data in Array: ");
         for (int i=0;i<number.length;i++)
-        System.out.print(val+" ");
+        System.out.print(number[i]+" ");
     }
 
     private static int[]inputData(int[]number) {
