@@ -1,4 +1,4 @@
-package ooplab41;
+package ooplab4;
 
 public class TestMethods {
     //global variable
