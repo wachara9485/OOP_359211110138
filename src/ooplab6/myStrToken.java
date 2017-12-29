@@ -5,14 +5,14 @@ import java.util.StringTokenizer;
 public class myStrToken {
     public static void main(String[] args) {
      //StringTokenizer
-     String msg =  ("Hello Welcome MT RMUTSV 2017");
+     String msg =  "Hello Welcome MT RMUTSV 2017";
         StringTokenizer myToken = new StringTokenizer(msg);
-        //counToken()
+        //countTokens()
         System.out.println(myToken.countTokens());
         while (myToken.hasMoreElements()){
             StringBuffer buffer =
                     new StringBuffer(myToken.nextToken());
-            System.out.println(buffer.reverse()+" ");
+            System.out.print(buffer.reverse()+" ");
         }//while
 
     }//main
