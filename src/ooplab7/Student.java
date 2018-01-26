@@ -8,26 +8,26 @@ package ooplab7;
 //1.public
 //2.private
 //3.protected
-
 public class Student {
     //properties of Student class
+    public static int age;
+    public String group;
     private String id;
     private String name;
-    private  String pid;
+    private String pid;
     private String address;
     //Constructor
     //default constructor
     public Student(){}
     //create by own
-    public Student(String id, Student n, String pid, String a){
-        //assign date to class properties
+    public Student(String id,String n,String pid, String a){
+        //assign data to class properties
         this.id = id;
-       // this.name = n;
+        this.name = n;
         this.pid = pid;
         this.address = a;
     }
     //getter and setter methods
-
 
     @Override
     public String toString() {
