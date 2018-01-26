@@ -22,7 +22,7 @@ public class Student {
     public Student(String id, Student n, String pid, String a){
         //assign date to class properties
         this.id = id;
-        this.name = n;
+       // this.name = n;
         this.pid = pid;
         this.address = a;
     }
