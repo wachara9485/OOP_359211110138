@@ -2,16 +2,19 @@ package ooplab8;
 
 public class PersonApp {
     public static void main(String[] args) {
-
         //create object as student
-        Student student = new Student("1111111111111","Boy Saiyai",
-                "109 M.2 Thungsong","Male",
-                "STD0001","Information System");
-
+        Student student = new Student("1111111111111",
+                "Boy Saiyai", "109 M.2 Thongsong",
+                "Male", "STD001", "Information System");
         System.out.println(student.toString());
-        student.setName("Boy Saiyong");
+        student.setName("Boy saiyong");
         System.out.println(student.getName());
         System.out.println(student.toString());
 
-    }//main
+        Employee employee = new Employee("2222222222222", "mos",
+                "176 M.4 Aongthon", "Female", "Sale",
+                10000, "ComputerNetwork");
+        System.out.println(employee.toString());
+
+    }
 }//class
