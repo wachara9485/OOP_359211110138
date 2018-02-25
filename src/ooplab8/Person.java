@@ -1,10 +1,12 @@
 package ooplab8;
 
+
 public class Person {
     private String personID;
     private String name;
     private String address;
     private String gender;
+
     //constructor
     public Person(String personID, String name, String address, String gender) {
         this.personID = personID;
@@ -12,8 +14,18 @@ public class Person {
         this.address = address;
         this.gender = gender;
     }
-    //getter and setter methods
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "personID='" + personID + '\'' +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
+
+    //getter and setter methods
     public String getPersonID() {
         return personID;
     }
@@ -44,15 +56,5 @@ public class Person {
 
     public void setGender(String gender) {
         this.gender = gender;
-    }
-
-    @Override
-    public String toString() {
-        return "Person{" +
-                "personID='" + personID + '\'' +
-                ", name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", gender='" + gender + '\'' +
-                '}';
     }
 }//class
