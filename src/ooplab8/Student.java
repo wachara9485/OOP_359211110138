@@ -4,7 +4,8 @@ public class Student extends Person {
     private String studentID;
     private String major;
 
-    public Student(String personID, String name, String address, String gender,
+    public Student(String personID, String name,
+                   String address, String gender,
                    String studentID, String major) {
         super(personID, name, address, gender);
         this.studentID = studentID;
